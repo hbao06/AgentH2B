@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Competition inputs, outputs and model artifacts
+data/
+models/
+checkpoints/
+outputs/
+results/
+logs/
+submission.jsonl
+*.sqlite
+*.sqlite3
+*.db
+*.parquet
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
